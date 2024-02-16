@@ -10,14 +10,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 128px;
+    padding: 0 256px;
     background-color: #1f2937;
 }
 
 .header p {
     font-size: 24px;
     color: #f9faf8;
-    font-weight: bolder;w
+    font-weight: bolder;
 }
 
 .header ul {
@@ -27,6 +27,51 @@ body {
     color: #e5e7eb;
 }
 
+.hero {
+    background-color: #1f2937;
+    padding: 64px 256px;
+    display: flex;
+    
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: 8px;
+    
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 0px;
+    color: #e5e7eb;
+}
+
+.hero img {
+    align-self: flex-end;
+    width: 40%;
+    height: auto;
+    margin-left: 256px;
+}
+
+button {
+    background-color: #3882f6;
+    width: 96px;
+    height: 32px;
+    border-radius: 8px;
+    border: none;
+    color: #f9faf8;
+    font-weight: bolder;
+}
 a {
     text-decoration: none;
     color: white;
