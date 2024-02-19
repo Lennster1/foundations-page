@@ -60,23 +60,59 @@ body {
     align-self: flex-end;
     width: 40%;
     height: auto;
-    margin-left: 256px;
+    margin-left: 512px;
 }
 
 button {
     background-color: #3882f6;
-    width: 96px;
+    width: 128px;
     height: 32px;
     border-radius: 8px;
     border: none;
     color: #f9faf8;
     font-weight: bolder;
 }
+
+.info {
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.card {
+    width: 256px;
+}
+
+.card img {
+    width: 256px;
+    height: 256px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(48, 48, 200);
+    border-width: 3px;
+}
 a {
     text-decoration: none;
     color: white;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 192px 512px;
+}
   
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
 ul {
     list-style-type: none;
 }
